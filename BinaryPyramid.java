@@ -1,9 +1,8 @@
 public class BinaryPyramid {
   public static void main(String[] args){
     
-    // Total number of rows in our pyramid
-    final int TOTAL_ROWS = 6; 
-
+    final int TOTAL_ROWS = 6;     // Total number of rows in our pyramid
+    
     // Outer loop for 6 rows
     for(int row = 1; row <= TOTAL_ROWS; row++){
       // Inner loop for dynamic column numbers
